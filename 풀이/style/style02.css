@@ -7,17 +7,17 @@ div#wrap {
   border: 1px solid #000;
 }
 
-header#header {
+/* header#header {
   border: 1px solid #000;
-}
+} */
 
-  #header > * {
-    border: 1px solid #000;
-  }
-
-nav#gnb {
+/* #header > * {
   border: 1px solid #000;
-}
+} */
+
+/* nav#gnb {
+  border: 1px solid #000;
+} */
 
 main#main {
   border: 1px solid #000;
@@ -30,7 +30,7 @@ footer#footer {
 /* guide Line End */
 /* div#wrap 시작 */
 
-div#wrap{
+div#wrap {
   width: 1140px;
   padding: 0 10px;
   margin: 0 auto;
@@ -44,22 +44,21 @@ div#wrap{
   align-items: center;
 }
 
-header#header div#headerLogo{
+header#header div#headerLogo {
   width: 230px;
   height: 140px;
   line-height: 140px;
   text-align: center;
-  
 }
 
 /* div#searchArea 시작 */
 
-#header div#searchArea{
+#header div#searchArea {
   flex: 1;
 }
 
-#header div#searchArea>* {
-  border: 1px solid #f80;
+#header div#searchArea > * {
+  /* border: 1px solid #f80; */
   /* margin: 0 auto; */
   width: 300px;
   transform: translateX(120px);
@@ -98,7 +97,7 @@ header#header div#headerLogo{
   height: 36px;
   line-height: 36px;
   margin-left: 4px;
-  
+
   border: 1px solid #468db7;
   background-color: #468db7;
 }
@@ -138,14 +137,19 @@ nav#gnb {
   padding: 4px 0;
 }
 
-#gnb ul a{
+#gnb ul {
+  align-items: center;
+  justify-content: center;
+}
+
+#gnb ul a {
   display: inline-block;
 
   text-align: center;
   color: #fff;
   font-weight: bold;
-  font-size: 16px;
-  padding: 8px 17px;
+  font-size: 17px;
+  padding: 8px 19px;
   background-color: #383735;
 }
 
@@ -155,6 +159,24 @@ nav#gnb {
 
 #gnb li:first-child a {
   background-color: #3793c4;
+}
+
+#gnb li:last-child {
+  height: 28px;
+}
+
+#gnb li:last-child a {
+  font-size: 11px;
+  background-color: #f7941d;
+  width: 100px;
+  height: 27px;
+  line-height: 27px;
+  padding: 0;
+}
+
+#gnb li:last-child a span {
+  font-weight: normal;
+  color: #fff;
 }
 
 /* nav#gnb 끝 */
