@@ -132,8 +132,9 @@ div#headerTop {
 
 #header nav#gnb li:last-child {
   background-color: #f80;
-  margin-top: 5px;
-  padding: 0 20px;
+  margin-top: 6px;
+  text-align: center;
+  width: 120px;
   height: 28px;
   line-height: 28px;
   cursor: pointer;
@@ -168,7 +169,7 @@ div#myMenuArea #myShopMenu {
   border: 2px solid #ccc;
   border-radius: 10px;
   padding: 10px 20px;
-  margin: 10px 50px;
+  margin: 10px 50px 0 20px;
 }
 
 #myShopMenu {
